@@ -7,7 +7,7 @@ pkgdesc="JupyterLab computational environment"
 arch=(any)
 url="https://github.com/jupyterlab/jupyterlab"
 license=(custom)
-makedepends=(python-setuptools nodejs python-recommonmark)
+makedepends=(python-setuptools nodejs python-recommonmark jsx-lexer)
 depends=(jupyterlab_server)
 source=("git+https://github.com/jupyterlab/jupyterlab.git"
 jupyter-lab.desktop)
